@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1534022956876961022}
   - component: {fileID: 8070444882305950232}
   - component: {fileID: -3742546012870505122}
-  - component: {fileID: 2241141910990360244}
   m_Layer: 0
   m_Name: leftRock
   m_TagString: Trap
@@ -153,16 +152,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ball: {fileID: 0}
---- !u!114 &2241141910990360244
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7355650177419885747}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06e994b642cd67341a6e8c83f6acc52d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  leftTime: 0

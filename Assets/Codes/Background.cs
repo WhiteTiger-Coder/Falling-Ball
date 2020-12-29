@@ -19,7 +19,11 @@ public class Background : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        transform.position = new Vector2(gameObject.transform.position.x, gameObject.transform.position.y - 80);
+
+        if(collision.tag == "ball")
+        {
+            transform.position = new Vector2(gameObject.transform.position.x, gameObject.transform.position.y - 80);
+        }
 
     }
 

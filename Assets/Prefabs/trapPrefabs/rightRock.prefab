@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 5491028436445451246}
   - component: {fileID: 3944419330058106334}
   - component: {fileID: 547845044843428404}
-  - component: {fileID: 5167313096991754527}
   - component: {fileID: 1356922770606934805}
   m_Layer: 0
   m_Name: rightRock
@@ -140,19 +139,6 @@ PolygonCollider2D:
       - {x: 0.53999996, y: -1.1949999}
       - {x: 0.53999996, y: -0.995}
       - {x: 0.51, y: -0.765}
---- !u!114 &5167313096991754527
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1014060176906280343}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06e994b642cd67341a6e8c83f6acc52d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  leftTime: 0
 --- !u!114 &1356922770606934805
 MonoBehaviour:
   m_ObjectHideFlags: 0
